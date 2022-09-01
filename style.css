@@ -1,0 +1,83 @@
+body{
+    margin: 0%;
+    background-color:#F8F8FF;
+}
+
+.links{
+    border-bottom: groove;
+    right: 2px;
+    box-shadow: 3px 3px gray;
+    display: flex;
+    align-items: baseline;
+    background-color: #F0E68C;
+    padding: 1px;
+    font-size: 15px;
+   background-color: opacity;
+
+    
+}
+
+.depoimentos{
+    display: flex;
+    padding-left: 330px;
+    padding-bottom: 2px;
+}
+.mais{
+    display: flex;
+    justify-content: center;
+    padding-left: 350px;
+    justify-content: center;
+    padding-right: 100;
+    
+}
+.cursos{
+    display: flex;
+    padding-left: 350px;
+    padding-bottom: 0px;
+}
+.home{
+    display: flex;
+    margin-left: 200px;
+    padding: 0px;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, fantasyApple Chancery, cursiveOptima, sans-serif;
+    text-decoration: overline underline;
+}
+
+p{
+    font-size: 70px;
+    margin-right: 500px;
+    padding-left: 50px;
+}
+
+article{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+    
+}
+
+ul{
+    border: groove grey;
+    border-radius: 15%;
+    padding: 110px;
+    padding-left: 30px;
+    font-size: 25px;
+    
+       
+}
+
+.listagem{
+    background-image: url("ok.jpg");
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: right;
+
+}
