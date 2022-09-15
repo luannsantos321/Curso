@@ -1,60 +1,47 @@
-<<<<<<< Updated upstream
+
 body{
     margin: 0%;
-    background-color:#F8F8FF;
+    background-image: linear-gradient(to right,FloralWhite,DeepSkyBlue);
 }
 
 .links{
-    border-bottom: groove;
-    right: 2px;
-    box-shadow: 3px 3px gray;
-    display: flex;
-    align-items: baseline;
-    background-color: #F0E68C;
-    padding: 1px;
-    font-size: 15px;
-   background-color: opacity;
-
+   
+   list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    display:flex ;
+    justify-content: center;
+    background-color: #F0FFFF;
+    box-shadow: 2px 2px #646463;
+    
     
 }
 
-.depoimentos{
+a{
+    text-align: center;
+    text-decoration: none;
     display: flex;
-    padding-left: 330px;
-    padding-bottom: 2px;
+    justify-content: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    color: black;
 }
-.mais{
-    display: flex;
-    justify-content: center;
-    padding-left: 350px;
-    justify-content: center;
-    padding-right: 100;
+
+a:hover{
+    font-size: 20px;
     
-}
-.cursos{
-    display: flex;
-    padding-left: 350px;
-    padding-bottom: 0px;
-}
-.home{
-    display: flex;
-    margin-left: 200px;
-    padding: 0px;
 }
 
 
 h1{
     text-align: center;
-    font-size: 50px;
+    text-shadow: black;
+    font-size: 70px;
     font-family: Impact, fantasyApple Chancery, cursiveOptima, sans-serif;
     text-decoration: overline underline;
 }
 
-p{
-    font-size: 70px;
-    margin-right: 500px;
-    padding-left: 50px;
-}
+
 
 article{
     margin-top: 10%;
@@ -65,7 +52,7 @@ article{
 }
 
 ul{
-    border: groove grey;
+    border: inset grey;
     border-radius: 15%;
     padding: 110px;
     padding-left: 30px;
@@ -80,58 +67,8 @@ ul{
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: right;
-
-=======
-body{
-    margin: 0%;
-    background-color:#F8F8FF;
 }
 
-.links{
-    border-bottom: groove;
-    right: 2px;
-    box-shadow: 3px 3px gray;
-    display: flex;
-    align-items: baseline;
-    background-color: #F0E68C;
-    padding: 1px;
-    font-size: 15px;
-   background-color: opacity;
-
-    
-}
-
-.depoimentos{
-    display: flex;
-    padding-left: 330px;
-    padding-bottom: 2px;
-}
-.mais{
-    display: flex;
-    justify-content: center;
-    padding-left: 350px;
-    justify-content: center;
-    padding-right: 100;
-    
-}
-.cursos{
-    display: flex;
-    padding-left: 350px;
-    padding-bottom: 0px;
-}
-.home{
-    display: flex;
-    margin-left: 200px;
-    padding: 0px;
-}
-
-
-h1{
-    text-align: center;
-    font-size: 50px;
-    font-family: Impact, fantasyApple Chancery, cursiveOptima, sans-serif;
-    text-decoration: overline underline;
-}
 
 p{
     font-size: 70px;
@@ -139,23 +76,7 @@ p{
     padding-left: 50px;
 }
 
-article{
-    margin-top: 10%;
-    display: flex;
-    justify-content: center;
-    margin-right: 50px;
-    
-}
 
-ul{
-    border: groove grey;
-    border-radius: 15%;
-    padding: 110px;
-    padding-left: 30px;
-    font-size: 25px;
-    
-       
-}
 
 .listagem{
     background-image: url("ok.jpg");
@@ -164,5 +85,5 @@ ul{
     background-attachment: scroll;
     background-position: right;
 
->>>>>>> Stashed changes
+
 }
