@@ -8,7 +8,7 @@ body{
    
    list-style-type: none;
     margin: 0%;
-    padding: 0%;
+    
     display:flex ;
     justify-content: center;
     background-color: #F0FFFF;
@@ -22,12 +22,13 @@ a{
     text-decoration: none;
     display: flex;
     justify-content: center;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
     color: black;
 }
 
 a:hover{
+   background-color:DeepSkyBlue ;
     font-size: 20px;
     
 }
@@ -44,46 +45,35 @@ h1{
 
 
 article{
-    margin-top: 10%;
+    position: absolute;
     display: flex;
-    justify-content: center;
-    margin-right: 50px;
+    
+    
     
 }
 
-ul{
-    border: inset grey;
-    border-radius: 15%;
-    padding: 110px;
+
+h3{
+    font-size: 30px;
+    padding-top: 200px;
+    border: 50px;
+    display: flex;
+    flex-direction: column;
     padding-left: 30px;
-    font-size: 25px;
-    
-       
 }
 
-.listagem{
-    background-image: url("ok.jpg");
-    background-size: 90px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: right;
-}
-
+/*.listagem :hover{
+    width: 70px;
+    padding-right: 300px;
+}*/
 
 p{
-    font-size: 70px;
-    margin-right: 500px;
-    padding-left: 50px;
+    position: relative;
+    top: 200px;
+    left: 300px;
+    margin: 2px 2px 2px 0;
+    justify-content: end;
+    font-size: 30px;
+   
 }
 
-
-
-.listagem{
-    background-image: url("ok.jpg");
-    background-size: 90px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: right;
-
-
-}
