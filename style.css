@@ -1,37 +1,54 @@
+
 body{
-    background-image: linear-gradient(200deg,#9b69ba, white, white, white);
+    background-image: linear-gradient(200deg,#2ef8a0, white);
     margin: 0;
     border: 0;
     padding: 0;
+    
 }
 
 .links{
     grid-area: links;
     display: flex;
     justify-content: space-around;
+    padding: 1px;
+    background-color: #2ef8a0;
 }
+
+
 .titulo{
     grid-area: titulo;
     text-align: center;
     font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     color: #0c4277;
+    font-family:fantasy;
+    
 }
 .article{
     grid-area: article;
     display: flex;
     justify-content: space-around;
+    margin-right: 60px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 .comentarios{
     grid-area: comentarios;
     display: flex;
     align-items: flex-end;
-    margin-top: 40px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
 }
 .footer{
     grid-area: footer;
     margin-left: 30px;
     margin-top: 40px;
-    background-image: linear-gradient(#9b69ba, white) ;
+    background-image: linear-gradient(#0c4277, white) ;
 }
 
 .conteiner{
@@ -52,4 +69,56 @@ img{
     height: 200px;
     margin-left: 30%;
     padding: 3px;
+}
+a{
+    display: block;
+    padding: 0px 20px 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #0c4277;
+}
+a:hover{
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.19);
+   
+
+}
+h1{
+    text-shadow:  8px 16px  rgba(0,0,0,0.2),  6px 20px  rgba(0,0,0,0.19);
+   
+    
+}
+
+
+h3{
+    display: flex;
+    align-items: center;
+    font-size: 28px ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+li{
+    display: block;
+    list-style-type: none;
+    font-size: 40px;
+    /*display: none;*/
+}
+li:hover{
+    position: relative;
+    left: 15px;
+    background-image: linear-gradient(#2ef8a0, white) ;
+    border-bottom: 1px solid;
+    border-radius: 25px 0px 0px 25px;
+
+}
+
+
+.comentario1{
+    margin-right: 30px;
+    border-right: solid 1px;
+    padding-right: 30px;
+}
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
